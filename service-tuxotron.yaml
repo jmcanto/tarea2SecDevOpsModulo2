@@ -5,7 +5,6 @@ metadata:
 spec:
   selector:
     app: demoapp
-    version: v2
   ports:
     - protocol: TCP
       port: 80

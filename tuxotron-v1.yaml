@@ -7,13 +7,10 @@ spec:
   selector:
     matchLabels:
       app: demoapp
-      version: v1
   template:
     metadata:
       labels:
         app: demoapp
-        version: v1
-        prueba: beta0
     spec:
       containers:
       - name: demoapp
